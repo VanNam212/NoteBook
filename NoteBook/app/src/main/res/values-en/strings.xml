@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteBook</string>
+    <!--    activity_main.xml-->
+    <string name="search">Search</string>
+    <string name="total">Total:</string>
+    <string name="newword">Vocabulary</string>
+    <string name="grammar">Grammar</string>
+    <string name="practise">Practise</string>
+    <!--    activity_add_update_form.xml-->
+    <string name="translate">Translate</string>
+    <string name="btnOke">Oke</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="tvAdd">Add</string>
+    <string name="tvCancelClick">Cancel clicked</string>
+    <string name="tvFail2">fail. Please enter enough data</string>
+    <string name="tvSuccess">successful</string>
+    <!--    form_action.xml-->
+    <string name="actiontitle">Select The Action</string>
+    <string name="actionview">View</string>
+    <string name="actionedit">Edit</string>
+    <string name="actiondelete">Delete</string>
+    <!--layout_message_info.xml-->
+    <string name="infotitle">Information</string>
+    <string name="infodate">Date: </string>
+    <!--layout_message_delete.xml-->
+    <string name="questionConfirm">Are you sure to delete?</string>
+    <string name="ConfirmYes">Yes</string>
+    <string name="ConfirmNo">No</string>
+    <!--    activity_practise_box.xml-->
+    <string name="pre">Pre</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
+    <string name="question">Question</string>
+    <string name="btnCamera">Camera</string>
+    <string name="btnVoice">Voice</string>
+    <string name="congrate">Congratulation!</string>
+
+    <string name="SortByName">   Sort A-Z</string>
+    <string name="SortByDate">   Sort by date</string>
+    <string name="Share">   Share with people</string>
+    <string name="Exit">   Exit application</string>
+</resources>

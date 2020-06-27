@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "779373813349",
+    "firebase_url": "https://notebook-ccb26.firebaseio.com",
+    "project_id": "notebook-ccb26",
+    "storage_bucket": "notebook-ccb26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779373813349:android:77afc8f121fcebda57f08c",
+        "android_client_info": {
+          "package_name": "com.example.notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779373813349-oi7svo3jkcnelfnat2348s8egiido6la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD94DRQtTRungpKu1fScvECyVn1UyL9Wyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779373813349-oi7svo3jkcnelfnat2348s8egiido6la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

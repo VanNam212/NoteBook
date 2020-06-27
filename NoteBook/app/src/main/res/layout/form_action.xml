@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewActionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/background_title_action"
+        android:text="@string/actiontitle"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/textViewActionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+        android:text="@string/actionview"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:gravity="center|left"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/textViewActionEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+        android:gravity="center|left"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:text="@string/actionedit"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/textViewActionDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_delete_black_24dp"
+        android:gravity="center|left"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:text="@string/actiondelete"
+        android:textSize="18sp" />
+</LinearLayout>

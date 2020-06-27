@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:text="@string/infotitle"
+            android:textColor="#0022FC"
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLang1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:text="Vietnamese: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvOrigin"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:maxHeight="120dp"
+            android:minHeight="30dp"
+            android:text="OriginText:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSpeak1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:background="@drawable/ic_volume_up_black_32dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLang2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:text="Vietnamese: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSub"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:maxHeight="120dp"
+            android:minHeight="30dp"
+            android:text="SubText:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonSpeak2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:background="@drawable/ic_volume_up_black_32dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/infodate"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvChangeDate"
+            android:layout_width="0dip"
+            android:layout_height="30dp"
+            android:layout_weight=".3"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOke"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/btnOke"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#0022FC"
+            android:background="@null"
+            android:layout_gravity="top"/>
+    </LinearLayout>
+</LinearLayout>

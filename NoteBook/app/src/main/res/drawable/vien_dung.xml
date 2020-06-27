@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+    <stroke
+        android:width="3dip"
+        android:color="#059E1A" />
+    <solid
+        android:color="#FFFFFF" />
+
+    <!-- và đây là bán kính đường tròn ở 4 góc -->
+    <corners
+        android:radius="20dp" >
+    </corners>
+
+</shape>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.Add_UpdateForm">
+
+    <TextView
+        android:id="@+id/tvFail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvFail2"
+        android:textSize="0sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSuccess"
+        android:textSize="0sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvAdd"
+        android:textSize="0sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actionedit"
+        android:textSize="0sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvCancelClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCancelClick"
+        android:textSize="0sp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Title"
+        android:textColor="#0022FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnSwap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lang1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="English"
+        android:textColor="#0022FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSwap"
+        app:layout_constraintEnd_toStartOf="@+id/btnSwap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <ImageButton
+        android:id="@+id/btnSwap"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/vien_trang"
+        app:layout_constraintEnd_toStartOf="@+id/lang2"
+        app:layout_constraintStart_toEndOf="@+id/lang1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:srcCompat="@drawable/swap"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lang2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Vietnamese"
+        android:textColor="#0022FC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lang1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSwap"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/lang3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lang1"
+        app:srcCompat="@drawable/ic_volume_up_black_32dp" />
+
+    <TextView
+        android:id="@+id/lang3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="English"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSpeak"
+        app:layout_constraintStart_toEndOf="@+id/btnSpeak"
+        app:layout_constraintTop_toTopOf="@+id/btnSpeak" />
+
+    <ImageButton
+        android:id="@+id/buttonClear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        android:textSize="16sp"
+        android:src="@drawable/ic_clear_black_32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSpeak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lang2" />
+
+    <EditText
+        android:id="@+id/et_OriginText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/vien"
+        android:drawableLeft="@drawable/pen2"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="text|textMultiLine"
+        android:maxHeight="200dp"
+        android:maxLines="5"
+        android:minHeight="40dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClear" />
+
+    <Button
+        android:id="@+id/btnTrans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:drawableTop="@drawable/icon_translate"
+        android:gravity="center"
+        android:text="@string/translate"
+        android:textAllCaps="false"
+        android:textColor="#0022FC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCamera"
+        app:layout_constraintStart_toEndOf="@+id/btnCamera"
+        app:layout_constraintTop_toBottomOf="@+id/et_OriginText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:background="@null"
+        android:drawableTop="@drawable/camera"
+        android:gravity="center"
+        android:text="@string/btnCamera"
+        android:textAllCaps="false"
+        android:textColor="#0022FC"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnTrans"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_OriginText" />
+
+    <Button
+        android:id="@+id/btnVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        android:drawableTop="@drawable/img_voice"
+        android:gravity="center"
+        android:text="@string/btnVoice"
+        android:textAllCaps="false"
+        android:textColor="#0022FC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnTrans"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        app:layout_constraintEnd_toStartOf="@+id/lang3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCamera"
+        app:srcCompat="@drawable/ic_volume_up_black_32dp" />
+
+    <TextView
+        android:id="@+id/lang4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="Vietnamese"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSpeak2"
+        app:layout_constraintStart_toEndOf="@+id/btnSpeak2"
+        app:layout_constraintTop_toTopOf="@+id/btnSpeak2" />
+
+
+    <EditText
+        android:id="@+id/et_SubText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/vien"
+        android:drawableLeft="@drawable/pen2"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="text|textMultiLine"
+        android:maxHeight="200dp"
+        android:maxLines="5"
+        android:minHeight="40dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSpeak2" />
+
+    <Button
+        android:id="@+id/btnOke"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:text="@string/btnOke"
+        android:textAllCaps="false"
+        android:textColor="#0022FC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:text="@string/btnCancel"
+        android:textAllCaps="false"
+        android:textColor="#0022FC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnOke" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

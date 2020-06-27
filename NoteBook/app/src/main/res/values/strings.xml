@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">NoteBook</string>
+    <string name="newword">Từ vựng</string>
+    <string name="grammar">Ngữ pháp</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="total">Tổng:</string>
+    <string name="actiontitle">Chọn hành động</string>
+    <string name="actiondelete">Xóa</string>
+    <string name="actionedit">Sửa</string>
+    <string name="actionview">Xem</string>
+    <string name="infotitle">Thông tin</string>
+    <string name="infodate">"Ngày: "</string>
+    <string name="ConfirmYes">Có</string>
+    <string name="ConfirmNo">Không</string>
+    <string name="questionConfirm">Bạn có chắc chắn muốn xóa không?</string>
+    <string name="tvAdd">Thêm</string>
+    <string name="tvCancelClick">Đã hủy bỏ</string>
+    <string name="tvSuccess">thành công</string>
+    <string name="tvFail2">thất bại. Vui lòng nhập đủ dữ liệu</string>
+    <string name="translate">Dịch</string>
+    <string name="btnCamera">Máy ảnh</string>
+    <string name="btnVoice">Giọng nói</string>
+    <string name="btnOke">Oke</string>
+    <string name="btnCancel">Hủy bỏ</string>
+    <string name="practise">Ôn tập</string>
+    <string name="pre">Trước</string>
+    <string name="check">Kiểm tra</string>
+    <string name="next">Tiếp</string>
+    <string name="question">Câu hỏi</string>
+    <string name="SortByName">   Sắp xếp A-Z</string>
+    <string name="SortByDate">   Sắp xếp mới nhất</string>
+    <string name="congrate">Chúc mừng bạn đã hoàn thành!</string>
+    <string name="Share">   Chia sẻ với mọi người</string>
+    <string name="Exit">   Thoát ứng dụng</string>
+    <string name="facebook_app_id" translatable="false">563245737637030</string>
+</resources>
